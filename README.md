@@ -1,8 +1,15 @@
-# React + Vite
+# Adopt Me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Adopt Me! This is a beginner-friendly React project aimed at helping newcomers learn and practice React development skills. Whether you're just starting out or looking to expand your knowledge, this project provides a fun and educational environment to work on.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with Adopt Me, follow these steps:
+
+1. **Clone the repository:** Clone this repository to your local machine using `git clone https://github.com/your-username/adopt-me.git`.
+2. **Install dependencies:** Navigate into the cloned directory and run `npm install` to install all the necessary dependencies.
+3. **Start the development server:** After installing dependencies, run `npm start` to start the development server. This will open the project in your default web browser.
+
+## License
+
+This project is licensed under the MIT License.
