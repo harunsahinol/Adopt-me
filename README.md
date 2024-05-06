@@ -8,7 +8,7 @@ To get started with Adopt Me, follow these steps:
 
 1. **Clone the repository:** Clone this repository to your local machine using `git clone https://github.com/harunsahinol/adopt-me.git`.
 2. **Install dependencies:** Navigate into the cloned directory and run `npm install` to install all the necessary dependencies.
-3. **Start the development server:** After installing dependencies, run `npm start` to start the development server. This will open the project in your default web browser.
+3. **Start the development server:** After installing dependencies, run `npm run dev` to start the development server. This will open the project in your default web browser.
 
 ## License
 
