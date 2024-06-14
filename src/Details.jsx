@@ -6,6 +6,10 @@ const Details = () => {
   const { id } = useParams();
   const results = useQuery(["details", id], fetchPet);
 
+  if (results.isError) {
+    return <h1>Something went wrong!</h1>;
+  }
+
   if (results.isLoading) {
     return (
       <div className="loading-pane">
