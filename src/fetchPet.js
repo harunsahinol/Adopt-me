@@ -1,13 +1,12 @@
 const fetchPet = async ({ queryKey }) => {
   const id = queryKey[1];
+  const apiRes = await fetch(`http://pets-v2.dev-apis.com/pets?id=${id}`);
 
-  const resApi = await fetch(`https://pets-v2.dev-apis.com/pets?id=${id}`);
-
-  if (!resApi.ok) {
-    throw new Error("Something went wrong");
+  if (!apiRes.ok) {
+    throw new Error(`details/${id} fetch not ok`);
   }
 
-  return resApi.json();
+  return apiRes.json();
 };
 
 export default fetchPet;
