@@ -2,6 +2,10 @@
 
 Welcome to Adopt Me! This is a beginner-friendly React project aimed at helping newcomers learn and practice React development skills. Whether you're just starting out or looking to expand your knowledge, this project provides a fun and educational environment to work on.
 
+## Tech Stack
+- React
+- React Query
+
 ## Getting Started
 
 To get started with Adopt Me, follow these steps:
